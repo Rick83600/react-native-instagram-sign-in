@@ -1,0 +1,38 @@
+{
+  "name": "react-native-instagram-sign-in",
+  "version": "1.0.0",
+  "description": "react native instagram SignIn component modal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rick83600/react-native-instagram-sign-in.git"
+  },
+  "keywords": [
+    "react",
+    "react-native",
+    "login",
+    "instagram",
+    "modal"
+  ],
+  "files": [
+    "index.tsx"
+  ],
+  "author": "Tristan HULOT",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rick83600/react-native-instagram-sign-in/issues"
+  },
+  "homepage": "https://github.com/Rick83600/react-native-instagram-sign-in#readme",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "react": "^18.3.1",
+    "react-native": "^0.75.3",
+    "react-native-webview": "^13.12.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.8"
+  }
+}
