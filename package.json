@@ -2,8 +2,13 @@
   "name": "react-native-instagram-sign-in",
   "version": "1.0.0",
   "description": "react native instagram SignIn component modal",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "scripts": {
+    "prestart": "npm run build",
+    "prepublishOnly": "npm run build",
+    "build": "npm run build:clean && npm run build:dist",
+    "build:clean": "rimraf dist",
+    "build:dist": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -30,7 +35,8 @@
     "axios": "^1.7.7",
     "react": "^18.3.1",
     "react-native": "^0.75.3",
-    "react-native-webview": "^13.12.2"
+    "react-native-webview": "^13.12.2",
+    "rimraf": "^6.0.1"
   },
   "devDependencies": {
     "@types/react": "^18.3.8"

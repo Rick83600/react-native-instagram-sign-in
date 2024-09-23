@@ -1,8 +1,10 @@
 {
   "compilerOptions": {
     "jsx": "react",
-    "baseUrl": "./index.tsx",
-    "target": "es2016" /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */,
+    "rootDir": "./",
+    "baseUrl": ".",
+    "outDir": "./dist",
+    "target": "es2021" /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */,
     "allowJs": true,
     "moduleResolution": "node",
     "module": "ESNext" /* Specify what module code is generated. */,
