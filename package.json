@@ -1,6 +1,6 @@
 {
   "name": "react-native-instagram-sign-in",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "react native instagram SignIn component modal",
   "main": "./dist/index.js",
   "scripts": {
