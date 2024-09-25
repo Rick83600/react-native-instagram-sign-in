@@ -34,7 +34,7 @@ const APP_SECRET = '******';
 
 export default function Index() {
   const [open, setOpen] = useState(false);
-  const [token, setToken] = (useState < string) | (null > null);
+  const [token, setToken] = useState(null);
 
   useEffect(() => {
     AsyncStorage.getItem('access_token').then(token => {
