@@ -1,6 +1,6 @@
 {
   "name": "react-native-instagram-sign-in",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "react native instagram SignIn component modal",
   "main": "./dist/index.js",
   "scripts": {
@@ -35,10 +35,12 @@
     "axios": "^1.7.7",
     "react": "^18.3.1",
     "react-native": "^0.75.3",
-    "react-native-webview": "^13.12.2",
     "rimraf": "^6.0.1"
   },
   "devDependencies": {
     "@types/react": "^18.3.8"
+  },
+  "peerDependencies": {
+    "react-native-webview": "^13.8.6"
   }
 }
